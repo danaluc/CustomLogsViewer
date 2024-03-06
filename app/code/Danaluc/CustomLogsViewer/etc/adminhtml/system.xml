@@ -26,7 +26,7 @@
                     </comment>
                 </field>
                 <field id="custom_logs_files" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Custom Logs Files</label>
+                    <label>Custom Log Files</label>
                     <frontend_model>Danaluc\CustomLogsViewer\Block\Adminhtml\System\Config\Form\Field\CustomLogsFiles</frontend_model>
                     <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
                     <comment>

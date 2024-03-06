@@ -3,7 +3,7 @@
     <default>
         <custom_logs_viewer>
             <general_settings>
-                <clean_schedule>* * * * *</clean_schedule>
+                <clean_schedule>0 0 * * *</clean_schedule>
             </general_settings>
         </custom_logs_viewer>
     </default>

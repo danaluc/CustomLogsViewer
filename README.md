@@ -27,6 +27,8 @@ This Magento 2 extension allows you to easily read log files from the Magento ba
     - Configure Cron Schedule for cleanning logs: This option allows you to configure the cron options that establish the frequency with which each of the log files is checked for cleanliness. 
     - Custom Logs Files: Add all log files you need, remember log files must to be in `<Magento Root Dir>/var/log/`. Let column *Restart file every x days* empty if you don't want log files will be cleaned by schedule (cron). 
 
+4. After configuring as described in item 3, navigate to ***Reports > Custom Logs Viewer > View Log Files***.
+
 ## Support
 If you encounter any issues or have questions about this extension, please [open an issue](https://github.com/danaluc/CustomLogsViewer/issues) on GitHub.
 
