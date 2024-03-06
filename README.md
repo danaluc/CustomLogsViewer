@@ -13,7 +13,7 @@ This Magento 2 extension allows you to easily read log files from the Magento ba
 3. Run the following commands:
 
    ```bash
-   php bin/magento module:enable Namespace_ModuleName
+   php bin/magento module:enable Danaluc_CustomLogsViewer
    php bin/magento setup:upgrade
    php bin/magento setup:di:compile
    php bin/magento setup:static-content:deploy -f
