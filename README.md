@@ -21,8 +21,11 @@ This Magento 2 extension allows you to easily read log files from the Magento ba
 
 ## Usage
 1. Log in to your Magento back office.
-2. Navigate to the log reader extension.
-3. Browse and view log files as needed.
+2. Navigate to ***Store > Configuration > Danaluc > Custom Logs Viewer***.
+3. Add General settings.
+    
+    - Configure Cron Schedule for cleanning logs: This option allows you to configure the cron options that establish the frequency with which each of the log files is checked for cleanliness. 
+    - Custom Logs Files: Add all log files you need, remember log files must to be in `<Magento Root Dir>/var/log/`. Let column *Restart file every x days* empty if you don't want log files will be cleaned by schedule (cron). 
 
 ## Support
 If you encounter any issues or have questions about this extension, please [open an issue](https://github.com/danaluc/CustomLogsViewer.git/issues) on GitHub.
