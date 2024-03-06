@@ -28,7 +28,7 @@ This Magento 2 extension allows you to easily read log files from the Magento ba
     - Custom Logs Files: Add all log files you need, remember log files must to be in `<Magento Root Dir>/var/log/`. Let column *Restart file every x days* empty if you don't want log files will be cleaned by schedule (cron). 
 
 ## Support
-If you encounter any issues or have questions about this extension, please [open an issue](https://github.com/danaluc/CustomLogsViewer.git/issues) on GitHub.
+If you encounter any issues or have questions about this extension, please [open an issue](https://github.com/danaluc/CustomLogsViewer/issues) on GitHub.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
