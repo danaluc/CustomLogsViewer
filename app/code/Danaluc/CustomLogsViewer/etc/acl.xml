@@ -9,6 +9,13 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="Danaluc_CustomLogsViewer::config" title="Config Custom Logs" translate="title" sortOrder="100" />
+                        </resource>
+                    </resource>
+                </resource>
                 <resource id="Magento_Reports::report">
                     <resource id="Danaluc_CustomLogsViewer::custom_logs_viewer" title="Custom Logs Viewer" translate="title" sortOrder="100">
                         <resource id="Danaluc_CustomLogsViewer::view_logs_file" title="View Logs Files" translate="title" sortOrder="10" />
